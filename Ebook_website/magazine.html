@@ -12,13 +12,41 @@
          color:white;
          margin: 0px;  
          padding: 0px;
-         background-image:  url('logo1/p9.jpg');
+         background-image:  url('logo2/p6.webp');
          background-repeat: no-repeat;
          background-attachment: fixed;
          background-position: center;
          background-size: cover;
          
          }
+         .navbar {
+        display: block;
+        margin: 20px auto;
+        background-color: black;
+        color: white;
+        border-radius: 10px;
+        width: 600px;
+    } 
+
+    ul {
+        overflow: auto;
+
+    }
+
+
+    li {
+        float: left;
+        list-style-type: none;
+        margin: 5px;
+        padding: 15px;
+
+    }
+
+    a {
+        text-decoration: none;
+        color: white;
+        margin: -10px;
+    }
         .left{
             top: 30px;
             left:15px;
@@ -26,7 +54,8 @@
             position: absolute;
             display: inline-block;
             color:white;
-            text-shadow: 2px 2px 5px olivedrab;
+            text-shadow: 2px 2px 5px darkslateblue;
+            width: 20px;
             
 }
         .mid{
@@ -42,8 +71,8 @@
             animation-iteration-count: infinite;
             text-shadow: 2px 2px 5px black;}
             @keyframes example {
-            from {color:darkgreen;}
-            to {color:olivedrab;}
+            from {color:steelblue;}
+            to {color:skyblue;}
             
             }
      
@@ -71,11 +100,13 @@
       div.gallery {
         margin: 10px;
         margin-top: 2cm;
+        margin-left: 3cm;
         border: 1px solid black;
         float: left;
         width: 350px;
         align-items: center;
         border-radius: 20px;
+        
         }
 
         div.gallery:hover {
@@ -88,20 +119,30 @@
         border-radius: 20px;
         }
 
-        div.desc {
-        padding: 10px;
-        font-size: x-large;
-        text-align: center;
-        text-shadow: 2px 2px 5px red; }
+        
         .header1{
-          color:black ;
+          color:floralwhite ;
           font-size: 40px;
           text-align: center;
-          text-shadow: 2px 2px 10px palegreen; 
+          text-shadow: 2px 2px 10px violet; 
           ;
         }
 </style>
 <body>
+  <header>
+    <nav class="navbar" id="nav">
+        <ul>
+            <li><a href="home.html"> Home</li></a>
+            <li><a href="newspaper.html"> Newspaper</li></a>
+            <li><a href="books.html"> Books</li></a>
+            <li><a href="magazine.html">Magazines</li></a>
+            <li><a href="novel.html">Novels</li></a>
+            <li><a href="studymaterial.html">Study_Materials</li></a>
+
+        </ul>
+    </nav>
+</header>
+
     <header class="header" >
         <!--left box for site name-->
         <div class="left">
@@ -109,105 +150,88 @@
         </div>
         <!--mid box for title-->
         <div class="mid">
-           <div>BOOKS</div>
+           <div>MAGAZINES</div>
         </div>
         <!-- right box for logo -->
         <div class="right">
-              <img src="logo.jpg" alt=""> 
+              <img src="logo2/logo.jpg" alt=""> 
               <div> MNNIT LIBRARY </div>
         </div>      
     <!--<h1 style="text-align:center;">E Newspaper</h1>-->
     </header>
-    <div class="header1">PERSONALITY DEVELOPMENT</div>
+    <div class="header1">INDIA TODAY</div>
     <div class="gallery">
-        <a href="https://drive.google.com/file/d/0B1Ef5shqGHDNZ25HSHdiMFJBVkU/view?usp=sharing">
-          <img src="logo1/richdad.jpg" alt="" width="600" height="400">
+        <a href="https://drive.google.com/file/d/1fGR3-aa6iEOwlN3b9xGMDAXEDTiQLYTM/view?usp=sharing">
+          <img src="logo2/it1 (1).jpg" alt="" width="600" height="400">
         </a>
-        <div class="desc"> Rich dad and Poor dad</div>
+        
       </div>
       <div class="gallery">
-        <a href="https://drive.google.com/file/d/0B1Ef5shqGHDNUFRXVzdLSV9iSVk/view?usp=sharing">
-          <img src="logo1/mind control.jpg" alt="" width="600" height="400">
+        <a href="https://drive.google.com/file/d/1BIrPGjDUmSu3pUy6-ZO5WYLLy6zZqMhd/view?usp=sharing">
+          <img src="logo2/it1 (2).jpg" alt="" width="600" height="400">
         </a>
-        <div class="desc">Mind Control</div>
+        
       </div>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
       <div class="gallery">
-        <a href="https://drive.google.com/file/d/0B1Ef5shqGHDNa1R1TFprYnNabDA/view?usp=sharing">
-          <img src="logo1/artofspeaking.jpg" alt="" width="600" height="400">
+        <a href="https://drive.google.com/file/d/1yW7XdGpMhANfrH1t_qEkfeGNOTOXu91Y/view?usp=sharing">
+          <img src="logo2/it1 (3).jpg" alt="" width="600" height="400">
         </a>
-        <div class="desc"> Art of Public Speaking</div>
+        
       </div> 
-      <div class="gallery">
-        <a href="https://drive.google.com/file/d/0B1Ef5shqGHDNdE1YMnZtMHVmLVU/view?usp=sharing">
-          <img src="logo1/growrich.jpg" alt="" width="600" height="400">
-        </a>
-        <div class="desc"> Think and grow Rich</div>
-      </div> 
+      
       <br>
-      <div class="header1">BIOGRAPHY</div>
+      <div class="header1">WEEK</div>
       <div class="gallery">
-          <a href="https://drive.google.com/file/d/1FTKaOHCd2-NvRy5XbfDQ0PjIW69yLbag/view?usp=sharing">
-            <img src="logo1/n1.jpg" alt="" width="600" height="400">
+          <a href="https://drive.google.com/file/d/1D0aXe6yCINVmUsYvjVw4OpU0cHXDITFE/view?usp=sharing">
+            <img src="logo2/week1 (1).jpg" alt="" width="600" height="400">
           </a>
-          <div class="desc"> Wings of Fire</div>
+         
         </div>
         <div class="gallery">
-          <a href="https://drive.google.com/file/d/0B1Ef5shqGHDNM3Jrb1NvRURqemM/view?usp=sharing">
-            <img src="logo1/yogi.jpg" alt="" width="600" height="400">
+          <a href="https://drive.google.com/file/d/1PuHNm7aFkSkAWr-aKSFBR4KZbfj10YKo/view?usp=sharing">
+            <img src="logo2/week1 (2).jpg" alt="" width="600" height="400">
           </a>
-          <div class="desc"> Life Of Yogi</div>
+         
         </div>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
         <div class="gallery">
-          <a href="https://drive.google.com/file/d/14UVWdpVMS6i3V_wT_csXSopw8gBTvLHR/view?usp=sharing">
-            <img src="logo1/n3.jpg" alt="" width="600" height="400">
+          <a href="https://drive.google.com/file/d/1pWAIMcXc0WLae4v4L3w5Ti2y3I4ijG1c/view?usp=sharing">
+            <img src="logo2/week1 (3).jpg" alt="" width="600" height="400">
           </a>
-          <div class="desc"> Napolean life</div>
+          
         </div> 
+        
+        <div class="header1">TEHELKA & INDIA LEGAL</div>
         <div class="gallery">
-          <a href="https://drive.google.com/file/d/0B1Ef5shqGHDNZm9SWnl5cG1EV0U/view?usp=sharing">
-            <img src="logo1/warrent.jpg" alt="" width="600" height="400">
-          </a>
-          <div class="desc"> Warrent Buffett</div>
-        </div> 
-        <br>
-        <div class="header1">LEADERSHIP</div>
-        <div class="gallery">
-            <a href="https://drive.google.com/file/d/0B3q9ZMSOj2NSZmJYQVhTV2IyWEE/view?usp=sharing">
-              <img src="logo1/50.jpg" alt="" width="600" height="400">
+            <a href="https://drive.google.com/file/d/1pWAIMcXc0WLae4v4L3w5Ti2y3I4ijG1c/view?usp=sharing">
+              <img src="logo2/tehelka (1).jpg" alt="" width="600" height="400">
             </a>
-            <div class="desc"> 50 Steps to Success</div>
+           
           </div>
           <div class="gallery">
-            <a href="https://drive.google.com/file/d/0B3q9ZMSOj2NSLTI1d0dxWWszRTQ/view?usp=sharing">
-              <img src="logo1/Eleadeer.png" alt="" width="600" height="400">
+            <a href="https://drive.google.com/file/d/1jva2PK8znzjMxgjSuWoQ-QoEfGQimd96/view?usp=sharing">
+              <img src="logo2/tehelka (2).jpg" alt="" width="600" height="400">
             </a>
-            <div class="desc"> Educative Leadership</div>
+            
           </div>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
           <div class="gallery">
-            <a href="https://drive.google.com/file/d/0B3q9ZMSOj2NSLTI1d0dxWWszRTQ/view?usp=sharing">
-              <img src="logo1/Effective leader.jpg" alt="" width="600" height="400">
+            <a href="https://drive.google.com/file/d/1Wy1oKF__kH_R5wGp7MvuKYumwpmiV4mw/view?usp=sharing">
+              <img src="logo2/tehelka (4).jpg" alt="" width="600" height="400">
             </a>
-            <div class="desc"> Effective Leadership</div>
+           
           </div> 
+          
+          <div class="header1">SPORTS</div>
           <div class="gallery">
-            <a href="https://drive.google.com/file/d/0B3q9ZMSOj2NSU0dFMUZUVUl5eXc/view?usp=sharing">
-              <img src="logo1/entre.png" alt="" width="600" height="400">
-            </a>
-            <div class="desc"> Enterpreneurs,Leader</div>
-          </div> 
-          <br>
-          <div class="header1">ROMANTIC</div>
-          <div class="gallery">
-              <a href="https://drive.google.com/file/d/19vu2mpH032ncJJ_Vr8-8dfmb4-obIBVw/view?usp=sharing">
-                <img src="logo1/n2.jpg" alt="" width="600" height="400">
+              <a href="https://drive.google.com/file/d/1pCjZKinRzggpCeX2BUwSuvMFrS6DyFUN/view?usp=sharing">
+                <img src="logo2/sport (2).jpg" alt="" width="600" height="400">
               </a>
-              <div class="desc"> HALF GIRLFRIEND</div>
+              
             </div>
             <div class="gallery">
-              <a href="https://drive.google.com/file/d/1LMnPUDSszScDM__rGuGYLwa4385Tpt9Q/view?usp=sharing">
-                <img src="logo1/r1.jpg" alt="" width="600" height="400">
+              <a href="https://drive.google.com/file/d/162FrdWzpMttYHgvgiaD4cATSm9ic5ERj/view?usp=sharing">
+                <img src="logo2/sport (1).jpg" alt="" width="600" height="400">
               </a>
-              <div class="desc"> Love For A Deaf Rebel</div>
+              
             </div>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
              
 </body>
