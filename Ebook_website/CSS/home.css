@@ -36,7 +36,7 @@ text-shadow: 2px 2px 13px #21ebc9;
 }
 
 .inline {
-    display: block;
+    display: inline-block;
     text-align: center;
     margin: 20px;
 }
