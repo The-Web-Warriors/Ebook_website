@@ -12,8 +12,31 @@
             padding: 0px;
             box-sizing: border-box;
             background: linear-gradient(120deg, #2e72ed, #e5a1ed);
+            font-family: cursive;
+        }
+        
+        a:hover {
+            color: orange;
+         
+        }
+        img.warriors {
+            width: 217px;
+            height: 63px;
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            margin: 13px;
         }
 
+        img.mnnit {
+            width: 224px;
+            height: 124px;
+            position: absolute;
+            top: 0px;
+            right: 0px;
+           
+            margin: 6px;
+        }
         .navbar {
             display: block;
             margin: 20px auto;
@@ -60,17 +83,57 @@
             box-shadow: 5px 5px 5px  #ebdaf6;
         }
 
-        img {
+        img.profile {
             height: 100px;
             width: 100px;
             border-radius: 50px;
 margin: 20px;
 
         }
+        img.warriors {
+            width: 217px;
+            height: 63px;
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            margin: 13px;
+        }
+
+        img.mnnit {
+            width: 224px;
+            height: 124px;
+            position: absolute;
+            top: 0px;
+            right: 0px;
+           
+            margin: 6px;
+        } 
+        div:hover{
+        background-color: rgba(222, 222, 222, 0.1);
+           
+            transform: translateY(4px);
+    }
+    div:active{
+        background-color: rgba(119, 113, 113, 0.1);
+           
+           transform: translateY(4px);
+    }
+    .head{
+        background: linear-gradient(120deg,  #1f66e7, #dba94d);
+            border-radius: 10px;
+          
+           
+            display: inline-block;
+         font-size: 35px;
+            text-align: center;
+            box-shadow: 5px 5px 5px  #ebdaf6;
+    }
     </style>
 </head>
 
 <body>
+    <img class="warriors" src="photo/web_warriors.png">
+    <img class="mnnit" src="photo/mnnit.png">
     <header>
         <nav class="navbar" id="nav">
             <ul>
@@ -86,24 +149,24 @@ margin: 20px;
     </header>
 <br>
     <div id="profile">
-        <h1>Contributors</h1>
+        <div class="head">Contributors</div>
         <div>
             <div class="logo" id="name">
-                <img src="photo/priyansh.jpg">
+                <img class="profile" src="photo/priyansh.jpg">
                 <br>
                 Priyansh Verma <br>20208097 <br>IT'24
             </div>
-            <div class="logo" id="name"><img src="photo/pranal.png">
+            <div class="logo" id="name"><img class="profile" src="photo/pranal.png">
                 <br>
                Pranal Wankhade  <br>20208090 <br>IT'24 
             </div>
         </div>
         <div>
-            <div class="logo" id="name"><img src="photo/harsh.png">
+            <div class="logo" id="name"><img class="profile" src="photo/harsh.png">
                 <br>
                Harsh <br>20208051 <br>IT'24 
             </div>
-            <div class="logo" id="name"><img src="photo/abhishek.png">
+            <div class="logo" id="name"><img class="profile" src="photo/abhishek.png">
                 <br>
                 Abhishek Kumar<br>20205007  <br>ECE'24 
             </div>

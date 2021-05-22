@@ -20,25 +20,29 @@
         }
 
         .logo {
-         
+
             display: inline-block;
-           
+
 
         }
 
 
-}
+      
+
         .centre {
             text-align: center;
            
+    text-shadow: 2px 2px 13px #21ebc9;
+
         }
-.inline{
-    display: block;
-    text-align: center;
-    margin: 20px;
-}
-       
-       
+
+        .inline {
+            display: block;
+            text-align: center;
+            margin: 20px;
+        }
+
+
 
         a {
             text-decoration: none;
@@ -46,29 +50,78 @@
             font-size: 20px;
         }
 
-        h2 {
+        
 
-            font-size: 50px;
+        button {
+            background-color: transparent;
+            border-top-right-radius: 36px;
+            border-bottom-left-radius: 36px;
+            border-bottom-right-radius: 36px;
+            height: 200px;
+            width: 200px;
+            border: 2px solid #b085fa;
+            margin: 17px;
+            box-shadow: 2px 2px 5px #edceec;
+            cursor: pointer;
+            font-family: cursive;
+
+
         }
-button{
-    background-color: transparent;
-    border-top-right-radius: 36px;
-    border-bottom-left-radius: 36px;
-    border-bottom-right-radius: 36px;
-    height: 200px;
-    width: 200px;
-    border: 2px solid #b085fa;
-    margin: 17px;
-    box-shadow: 2px 2px 5px #edceec;
+#heading{
+    display: block;
+    width: 800px;
+    margin: 60px auto;
+    font-size: 30px;
+    text-shadow: 3px 3px 3px blueviolet;
 }
-       
+        img.warriors {
+            width: 217px;
+            height: 63px;
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            margin: 13px;
+        }
+
+        img.mnnit {
+            width: 224px;
+            height: 124px;
+            position: absolute;
+            top: 0px;
+            right: 0px;
+            filter: invert(1);
+            margin: 6px;
+        }
+
+        button:hover {
+            background-color: rgba(222, 0, 222, 0.1);
+            color: violet;
+        }
+
+        button:active {
+            background-color: rgba(222, 222, 222, 0.1);
+            box-shadow: 0 5px #666;
+            transform: translateY(4px);
+        }
+
+        a:hover {
+            color: orange;
+        }
     </style>
 
 
 </head>
 
 <body>
-    <h2>Hola readers, here we are going to provide all basic materials</h2>
+
+    <header>
+
+       <div> <img class="warriors" src="photo/web_warriors.png">
+        <img class="mnnit" src="photo/mnnit.png"></div>
+        <div id="heading">
+       <h2> Hola readers, here we are going to provide all basic materials</h2>
+        </div>
+    </header>
 
 
     <div id="position">
@@ -76,7 +129,7 @@ button{
             <button type="button">
                 <div class="logo" id="newspaper">
                     <a href="newspaper.html">
-                        <div class="centre">newspapers</div>
+                        <div class="centre">Newspapers</div>
                     </a>
 
                 </div>
@@ -86,13 +139,13 @@ button{
 
                 <div class="logo" id="novel">
                     <a href="novel.html">
-                        <div class="centre"> novel</div>
+                        <div class="centre"> Novel</div>
                     </a>
                 </div>
             </button><button type="button">
                 <div class="logo" id="books">
                     <a href="books.html">
-                        <div class="centre"> books</div>
+                        <div class="centre"> Books</div>
                     </a>
                 </div>
             </button>
@@ -101,13 +154,13 @@ button{
             <button type="button">
                 <div class="logo" id="magazines">
                     <a href="magazine.html">
-                        <div class="centre">magazines</div>
+                        <div class="centre">Magazines</div>
                     </a>
                 </div>
             </button><button type="button">
                 <div class="logo" id="study">
                     <a href="studymaterial.html">
-                        <div class="centre">study materials</div>
+                        <div class="centre">Study Materials</div>
                     </a>
                 </div>
 

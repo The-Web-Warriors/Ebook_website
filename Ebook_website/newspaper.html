@@ -16,6 +16,25 @@
             background-size: cover;
             margin: 0px;
             padding: 0px;
+            font-family:cursive
+        }
+        img.warriors {
+            width: 217px;
+            height: 63px;
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            margin: 13px;
+        }
+
+        img.mnnit {
+            width: 224px;
+            height: 124px;
+            position: absolute;
+            top: 0px;
+            right: 0px;
+            filter: invert(1);
+            margin: 6px;
         }
 
         .navbar {
@@ -25,6 +44,7 @@
             color: white;
             border-radius: 10px;
             width: 700px;
+        
         }
 
         ul {
@@ -41,7 +61,12 @@
 
         }
 
+        a:hover {
+            color: orange;
+         
+        }
         a {
+        
             text-decoration: none;
             color: white;
             margin: -10px;
@@ -61,7 +86,11 @@
 
         .logo1 {
             display: inline-block;
-            margin: 60px;
+            margin: 45px;
+            border: 2px solid white;
+            padding: 20px;
+            border-radius: 34px;
+        
         }
 
    
@@ -77,11 +106,25 @@
     bottom: 17px;
     width: 340px;
         }
+        div.logo1:hover{
+        background-color: rgba(222, 222, 222, 0.1);
+           
+            transform: translateY(4px);
+           
+    }
+    div.logo1:active{
+        background-color: rgba(119, 113, 113, 0.1);
+           
+           transform: translateY(4px);
+    }
     </style>
 </head>
 
 <body>
+    <img class="warriors" src="photo/web_warriors.png">
+        <img class="mnnit" src="photo/mnnit.png">
     <header>
+        
         <nav class="navbar" id="nav">
             <ul>
                 <li><a href="home.html"> Home</li></a>
