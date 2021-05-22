@@ -1,0 +1,110 @@
+body {
+    color: white;
+    background: url("bgimg/bgimg3.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    margin: 0px;
+    padding: 0px;
+    font-family:cursive
+}
+img.warriors {
+    width: 217px;
+    height: 63px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    margin: 13px;
+}
+
+img.mnnit {
+    width: 224px;
+    height: 124px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    filter: invert(1);
+    margin: 6px;
+}
+
+.navbar {
+    display: block;
+    margin: 20px auto;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    width: 700px;
+
+}
+
+ul {
+    overflow: auto;
+
+}
+
+
+li {
+    float: left;
+    list-style-type: none;
+    margin: 5px;
+    padding: 15px;
+
+}
+
+a:hover {
+    color: orange;
+ 
+}
+a {
+
+    text-decoration: none;
+    color: white;
+    margin: -10px;
+}
+
+h1 {
+    text-align: center;
+}
+
+img {
+    height: 150px;
+    width: 250px;
+
+   
+}
+
+
+.logo1 {
+    display: inline-block;
+    margin: 45px;
+    border: 2px solid white;
+    padding: 20px;
+    border-radius: 34px;
+
+}
+
+
+.responsive {
+    text-align: center;
+}
+#width3{
+    width: 340px;
+    margin-right: 20px;
+}
+#hieght3{
+    position: relative;
+bottom: 17px;
+width: 340px;
+}
+div.logo1:hover{
+background-color: rgba(222, 222, 222, 0.1);
+   
+    transform: translateY(4px);
+   
+}
+div.logo1:active{
+background-color: rgba(119, 113, 113, 0.1);
+   
+   transform: translateY(4px);
+}

@@ -1,0 +1,101 @@
+
+body {
+    color: white;
+    background: url("bgimg/bgimg.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    box-sizing: border-box;
+    font-family: cursive;
+
+}
+
+.logo {
+
+    display: inline-block;
+
+
+}
+
+
+
+
+.centre {
+    text-align: center;
+   
+text-shadow: 2px 2px 13px #21ebc9;
+
+}
+
+.inline {
+    display: block;
+    text-align: center;
+    margin: 20px;
+}
+
+
+
+a {
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 20px;
+}
+
+
+
+button {
+    background-color: transparent;
+    border-top-right-radius: 36px;
+    border-bottom-left-radius: 36px;
+    border-bottom-right-radius: 36px;
+    height: 200px;
+    width: 200px;
+    border: 2px solid #b085fa;
+    margin: 17px;
+    box-shadow: 2px 2px 5px #edceec;
+    cursor: pointer;
+    font-family: cursive;
+
+
+}
+#heading{
+display: block;
+width: 800px;
+margin: 60px auto;
+font-size: 30px;
+text-shadow: 3px 3px 3px blueviolet;
+}
+img.warriors {
+    width: 217px;
+    height: 63px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    margin: 13px;
+}
+
+img.mnnit {
+    width: 224px;
+    height: 124px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    filter: invert(1);
+    margin: 6px;
+}
+
+button:hover {
+    background-color: rgba(222, 0, 222, 0.1);
+    color: violet;
+}
+
+button:active {
+    background-color: rgba(222, 222, 222, 0.1);
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+a:hover {
+    color: orange;
+}
